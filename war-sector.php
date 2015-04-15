@@ -1,6 +1,5 @@
 <?php 
 // মহান মুক্তিযুদ্ধের সেক্টর সমূহ এবং সেগুলোর সংক্ষিপ্ত বর্ণনা
-
 add_shortcode('sector1971', 'war_sector');
 
 function war_sector(){

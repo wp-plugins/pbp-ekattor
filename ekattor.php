@@ -14,8 +14,6 @@
 
 	এবং এই প্লাগইনে ব্যবহৃত সকল তথ্যের একমাত্র স্বত্ত্ব মুক্তিযুদ্ধ জাদুঘরের কাছে সংরক্ষিত। 
 */
-
-
 include 'heros.php';
 include 'war-sector.php';
 include 'onthisday1971.php';
