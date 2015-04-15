@@ -7,7 +7,7 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-১৯৭১ সালের মহান মুক্তিযুদ্ধের ইতিহাস নিয়ে বিশেষ অনলাইন টুলস
+১৯৭১ সালের মহান মুক্তিযুদ্ধের ইতিহাস নিয়ে বিশেষ টুলস
 
 == Description ==
 
