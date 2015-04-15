@@ -3,7 +3,7 @@ Contributors: projoktibangla
 Tags: ekattor, 1971, independent war, bangladesh, shortcode, widget, মুক্তিযুদ্ধ, ১৯৭১, স্বাধীনতা যুদ্ধ, মুক্তিযোদ্ধা, একাত্তর, শহীদ
 Requires at least: 3.0
 Tested up to: 4.2
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -66,12 +66,20 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Changelog ==
 
-= ১.০  =
+= ১.১  =
 * ১৫-০৪-২০১৫
+* নতুন কিছু সুবিধা যুক্ত করা হয়েছে এবং ভুলত্রুটি ঠিক করা হয়েছে
+
+= ১.০  =
+* ১৪-০৪-২০১৫
 * প্রথম প্রকাশ
 
 == Upgrade Notice ==
 
+= ১.১  =
+* ১৫-০৪-২০১৫
+* নতুন কিছু সুবিধা যুক্ত করা হয়েছে এবং ভুলত্রুটি ঠিক করা হয়েছে
+
 = ১.০  =
 * ১৫-০৪-২০১৫
-* প্রথম প্রকাশ
+* প্রথম প্রকাশকাশ
