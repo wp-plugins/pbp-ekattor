@@ -1,4 +1,4 @@
-=== একাত্তর | ekattor ===
+﻿=== একাত্তর | ekattor ===
 Contributors: projoktibangla
 Tags: ekattor, 1971, independent war, bangladesh, shortcode, widget, মুক্তিযুদ্ধ, ১৯৭১, স্বাধীনতা যুদ্ধ, মুক্তিযোদ্ধা, একাত্তর, শহীদ
 Requires at least: 3.0
