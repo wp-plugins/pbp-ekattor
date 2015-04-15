@@ -1,0 +1,58 @@
+ul.tabs { 
+position: relative; 
+z-index: 1000; 
+float: left; 
+border-left:; 
+}
+ul.tabs li {
+position: relative; 
+overflow: hidden; 
+height: 26px; 
+float: left; 
+margin: 0; 
+padding: 0; 
+line-height: 26px; 
+background-color:;
+border:; 
+border-left:; 
+}
+ul.tabs li  a{ 
+display: block; 
+padding: 0 10px; 
+outline: none; 
+text-decoration: none;
+color:#000;
+}
+html ul.tabs li.active, 
+html ul.tabs li.active a:hover { 
+background-color:; 
+border-bottom:; 
+}
+.widget-area .widget .tabs a  { 
+color:; 
+}
+.tab_container {
+position: relative; 
+top: -1px; 
+z-index: 999; 
+width: 100%; 
+float: left; 
+font-size: 14px; 
+background-color: ; 
+border: ;
+}
+.tab_content { 
+padding: 7px 11px 11px 11px;
+line-height: 1.5;
+}
+.tab_content ul { 
+margin: 0;
+padding: 0; 
+list-style: none; 
+}
+.tab_content li { 
+margin: 3px 0;
+ }
+.tab-clear {
+clear:both;
+}
