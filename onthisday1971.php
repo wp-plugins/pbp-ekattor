@@ -7,7 +7,7 @@
  */
 add_shortcode('onthisday1971', 'onthisday_1971_shortcode');
 
-function onthisday_1971_shortcode($atts, $content = nul) {
+function onthisday_1971_shortcode($atts) {
 
 	// Prepare the date
 	$current_date = date_i18n(get_option('date_format'), strtotime('1971'));
@@ -19,26 +19,24 @@ function onthisday_1971_shortcode($atts, $content = nul) {
 	$day_line = $month_array[$day + 4];
 	$day_array = explode('<month>', $day_line);
 	$story_array = explode('<event>', $day_array[1]);
-	for($i = 0; $i < sizeof($story_array); $i++) {
-		$event_array = explode('<num>', $story_array[$i]);
-		$story .= $event_array[0] . ' ' . $event_array[1] . '<br />';
-	}
 
 	// Display
-	$content = '<table style="border-width: thin thin thin thin; border-style: solid solid solid solid;">';
-	$content .= '<thead><tr><th><center><font face="arial" size="+1"><b>' . __('একাত্তরের এই দিনে', 'onthisday-1971') . '</b></center></font></th></tr></thead>';
-	$content .= '<tbody><tr><td>';
+	echo '<table style="border-width: thin thin thin thin; border-style: solid solid solid solid;">';
+	echo '<thead><tr><th><center><font face="arial" size="+1"><b>' . __('একাত্তরের এই দিনে', 'onthisday-1971') . '</b></center></font></th></tr></thead>';
+	echo '<tbody><tr><td>';
 
-	$content .= '<div style="text-align:justify; padding:8px;">';
-	$content .= $current_date;
-	$content .= $story;
-	$content .= '</div>';
+	echo '<div style="text-align:justify; padding:8px;">';
+	echo $current_date;
+		for($i = 0; $i < sizeof($story_array); $i++) {
+				$event_array = explode('<num>', $story_array[$i]);
+				echo $event_array[0] . ' ' . $event_array[1] . '<br />';
+			}
+	echo '</div>';
 
-	$content .= '</td></tr></tbody>';
-	$content .= '<tfoot><tr><td><div style="text-align: right;"><font face="arial" size="-3">তথ্যসূত্র: মুক্তিযুদ্ধ জাদুঘর ও অন্যান্য</font></div></td></tr></tfoot>';
-	$content .= '</table>';
+	echo '</td></tr></tbody>';
+	echo '<tfoot><tr><td><div style="text-align: right;"><font face="arial" size="-3">তথ্যসূত্র: মুক্তিযুদ্ধ জাদুঘর ও অন্যান্য</font></div></td></tr></tfoot>';
+	echo '</table>';
 
-	return $content;
 }
 
 

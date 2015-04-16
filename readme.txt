@@ -1,9 +1,9 @@
 ﻿=== একাত্তর | ekattor ===
 Contributors: projoktibangla
-Tags: ekattor, 1971, independent war, bangladesh, shortcode, widget, মুক্তিযুদ্ধ, ১৯৭১, স্বাধীনতা যুদ্ধ, মুক্তিযোদ্ধা, একাত্তর, শহীদ
-Requires at least: 3.0
+Tags: muktijuddho, ekattor, 1971, independent war, bangladesh, shortcode, widget, মুক্তিযুদ্ধ, ১৯৭১, স্বাধীনতা যুদ্ধ, মুক্তিযোদ্ধা, একাত্তর, শহীদ
+Requires at least: 3.1
 Tested up to: 4.2
-Stable tag: 1.1
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -68,6 +68,10 @@ Live Demo দেখতে : [একাত্তর | ekattor](http://www.projokt
 
 == Changelog ==
 
+= ১.২  =
+* ১৬-০৪-২০১৫
+* গুরুত্বপূর্ণ একটি ত্রুটি ঠিক করা হয়েছে 
+
 = ১.১  =
 * ১৫-০৪-২০১৫
 * নতুন কিছু সুবিধা যুক্ত করা হয়েছে এবং ভুলত্রুটি ঠিক করা হয়েছে
@@ -77,6 +81,10 @@ Live Demo দেখতে : [একাত্তর | ekattor](http://www.projokt
 * প্রথম প্রকাশ
 
 == Upgrade Notice ==
+
+= ১.২  =
+* ১৬-০৪-২০১৫
+* গুরুত্বপূর্ণ একটি ত্রুটি ঠিক করা হয়েছে
 
 = ১.১  =
 * ১৫-০৪-২০১৫
