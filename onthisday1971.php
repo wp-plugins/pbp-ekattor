@@ -1,12 +1,13 @@
 <?php
-// মহান মুক্তিযুদ্ধের প্রতিদিনের উল্লেখযোগ্য ঘটনা নিয়ে সাজানো হয়েছে এই ’একাত্তরের এই দিনে’অপশনটি
 
 /*
+ *
  *	onthisday_1971_shortcode
+ *
  */
 add_shortcode('onthisday1971', 'onthisday_1971_shortcode');
 
-function onthisday_1971_shortcode($atts, $content = null) {
+function onthisday_1971_shortcode($atts, $content = nul) {
 
 	// Prepare the date
 	$current_date = date_i18n(get_option('date_format'), strtotime('1971'));
@@ -14,13 +15,13 @@ function onthisday_1971_shortcode($atts, $content = null) {
 
 	// Prepare the event
 	$month_array = file('http://file.projoktibangla.net/ekattor/data/' . date('n') . '.php');
-	$day = date('n');
-	$day_line = $month_array[$day + 3];
+	$day = date('j');
+	$day_line = $month_array[$day + 4];
 	$day_array = explode('<month>', $day_line);
 	$story_array = explode('<event>', $day_array[1]);
 	for($i = 0; $i < sizeof($story_array); $i++) {
 		$event_array = explode('<num>', $story_array[$i]);
-		$story = $event_array[0] . ' ' . $event_array[1] . '<br />';
+		$story .= $event_array[0] . ' ' . $event_array[1] . '<br />';
 	}
 
 	// Display
@@ -81,8 +82,8 @@ class WP_Widget_onthisday1971 extends WP_Widget {
 
 		// Prepare the event
 		$month_array = file('http://file.projoktibangla.net/ekattor/data/' . date('n') . '.php');
-		$day = date('n');
-		$day_line = $month_array[$day + 3];
+		$day = date('j');
+		$day_line = $month_array[$day + 4];
 		$day_array = explode('<month>', $day_line);
 		$story_array = explode('<event>', $day_array[1]);
 
